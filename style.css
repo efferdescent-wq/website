@@ -148,6 +148,7 @@ body {
   left: 50%;
   transform: translateX(-50%);
 }
+
 .sbar-r { display: flex; align-items: center; gap: 4px; }
 .sigbars { display: flex; gap: 1px; align-items: flex-end; }
 .sigbars span { background: #c4687e; border-radius: 1px; width: 2px; }
@@ -203,6 +204,12 @@ body {
 .scroller::-webkit-scrollbar-thumb { background: #e8b8c8; border-radius: 2px; }
 
 .avi-row { display: flex; gap: 9px; align-items: center; margin-bottom: 9px; }
+.avi-img {
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+  border-radius: 20%;
+}
 .avi-box {
   width: 50px; height: 50px;
   flex-shrink: 0;
